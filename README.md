@@ -1,11 +1,13 @@
 # DoctorAnywhere
-Spring Assignment 
+## Spring Assignment 
 
 This project is compatible with **Java 17**.
 
 Firstly open up your coding editor, preferrably **Intellij**. Build and run the project.
 
 Next, open up **Postman**(download it if you have not).
+
+URL to use in postman: **localhost:8080/api/v1/tasks**
 
 Below are the features you can do with **Postman**:
 
