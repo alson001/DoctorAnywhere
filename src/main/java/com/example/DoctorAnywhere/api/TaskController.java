@@ -4,6 +4,7 @@ import com.example.DoctorAnywhere.model.Task;
 import com.example.DoctorAnywhere.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -27,7 +28,7 @@ public class TaskController {
     }
 
     @PostMapping
-    public void addTask(@NonNull @RequestBody Task task) {
+    public void addTask(@Validated @NonNull @RequestBody Task task) {
         taskService.addTask(task);
     }
 
