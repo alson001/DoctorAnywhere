@@ -13,9 +13,12 @@ Creating a task:
 ![image](https://user-images.githubusercontent.com/65106667/227702124-fb368b44-2199-477a-9352-6e8c41de6e9f.png)
 
 Getting all tasks:
+![image](https://user-images.githubusercontent.com/65106667/227702346-af1d4d76-b0f4-414f-9355-3092ff92c7ef.png)
+
 
 Getting a task by id:
-![image](https://user-images.githubusercontent.com/65106667/227702225-cd9641ba-0524-44f7-83fb-52965a75bd8b.png)
+![image](https://user-images.githubusercontent.com/65106667/227702359-feb53bf8-ad8e-4fc7-82f1-2bd47d27996f.png)
+
 
 Putting a task by id:
 ![image](https://user-images.githubusercontent.com/65106667/227702269-107ae190-8151-4a1e-81b9-4d45d0de2063.png)
