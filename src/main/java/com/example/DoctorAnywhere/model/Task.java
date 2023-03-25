@@ -1,9 +1,12 @@
 package com.example.DoctorAnywhere.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.lang.NonNull;
 
 public class Task {
+    @NonNull
     private Long id;
+    @NonNull
     private String title;
     private String description;
     private boolean completed;

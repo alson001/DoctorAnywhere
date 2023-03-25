@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class TaskService {
@@ -23,5 +24,17 @@ public class TaskService {
 
     public List<Task> getAllTasks() {
         return taskDao.selectAllTasks();
+    }
+
+    public Optional<Task> getTaskById(long id) {
+        return taskDao.selectTaskById(id);
+    }
+
+    public int deleteTask(long id) {
+        return taskDao.deleteTaskById(id);
+    }
+
+    public int updateTask(long id, Task newTask) {
+        return taskDao.updateTaskById(id, newTask);
     }
 }
