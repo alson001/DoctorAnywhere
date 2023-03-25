@@ -10,7 +10,9 @@ Next, open up **Postman**(download it if you have not).
 Below are the features you can do with **Postman**:
 
 ##Creating a task:
+Make sure to have `id` and `title` inputted similar to the example below in **json** format. The system should catch you if those are null fields.
 ![image](https://user-images.githubusercontent.com/65106667/227702124-fb368b44-2199-477a-9352-6e8c41de6e9f.png)
+
 
 ##Getting all tasks:
 ![image](https://user-images.githubusercontent.com/65106667/227702346-af1d4d76-b0f4-414f-9355-3092ff92c7ef.png)
